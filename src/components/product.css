@@ -1,0 +1,27 @@
+.primg{
+    width:310px;
+    height: 300px;
+}
+.productE{
+    width:97%;
+    margin:auto;
+    display:grid;
+  
+    margin-top: 15px;
+    grid-template-columns: repeat(3,32%);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    /* margin-left: 60px;   */
+}
+.productE>div{
+    /* border: 1px solid black; */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.Electronic{
+    margin-top: 15px;
+    margin-left: 25px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 20px;
+}

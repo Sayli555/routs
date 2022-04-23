@@ -1,0 +1,43 @@
+.navbarcontainer{
+    width:97%;
+    height: 50px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+}
+
+img{
+    width:100px;
+    height: 150%;
+}
+.Link{
+    color: black;
+    text-decoration: none;
+    font-weight: 25px;
+}
+.Link:hover{
+    color: brown;
+}
+.logo{
+    margin-left: 60px;
+    margin-right: 150px;
+}
+.cart{
+    margin-left: 50px;
+}
+.SignIn{
+    margin-top: 15px;
+    margin-left: 250px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 20px;
+}
+.cart{
+    width:60px;
+}
+.cartImg{
+    width:60px;
+    height: 40px;
+    margin-top: 15px;
+}
