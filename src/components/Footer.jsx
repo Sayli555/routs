@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer'>
         <div className='footer1'>
         <div className='Electronic'>
-            <Link to="/electronc" className='Link'>About Us</Link>
+            <Link to="/about" className='Link'>About Us</Link>
         </div>
         <div className='Electronic'>
             <Link to="/electronc" className='Link'>Faqe Page</Link>
@@ -20,7 +20,7 @@ const Footer = () => {
 
         <div className='footer2'>
         <div className='Electronic'>
-            <Link to="/electronc" className='Link'>Home</Link>
+            <Link to="/" className='Link'>Home</Link>
         </div>
         <div className='Electronic'>
             <Link to="/electronc" className='Link'>Electricity</Link>

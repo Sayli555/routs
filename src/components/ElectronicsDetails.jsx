@@ -12,7 +12,21 @@ const ElectronicsDetails = () => {
         axios.get(`http://localhost:5555/products/${id}`).then(({data})=>{
             setProducts(data)
         })
-    },[])
+    },[]);
+
+
+    const   handleAddtoCart=(e)=>{
+
+        var data=JSON.parse(localStorage.getItem("Cart"))||[];
+        var obj={
+            img:e.image,
+            title:e.title,
+            category:e.category,
+            price:e.price,
+        }
+        data.push(obj);
+        localStorage.setItem("Cart",JSON.stringify(data))
+    }
   return (
     <div className='productPage'> 
      <div>
@@ -26,7 +40,9 @@ const ElectronicsDetails = () => {
          <p>{prod.description}</p>
          <div>
          <span>Rs.{prod.price}/-</span>
-         <button>Add To Cart</button>
+         <button onClick={()=>{
+            handleAddtoCart(prod)
+         }}>Add To Cart</button>
      </div>
      </div>
     

@@ -1,0 +1,40 @@
+.About{
+    width:90%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.Describe{
+    margin-top: 70px;
+    /* border: 1px solid green; */
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    width:85%;
+    margin: auto;
+    background-color: rgb(228, 238, 238);
+    margin-bottom: 60px;
+}
+.d2{
+    display: flex;
+    width:85%;
+    margin: auto;
+}
+.describe2{
+    float: left;
+    width:50%;
+    text-align: center;
+}
+.describeimg{
+    float: right;
+    width:47%;
+    margin-left: 25px;
+}
+.describeimg1{
+    width:500px;
+    height: 500px;
+}
+.h2{
+    margin-top: 50px;
+}
+
+   
